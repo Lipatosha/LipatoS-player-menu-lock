@@ -1,0 +1,32 @@
+{
+  "id": "lipatos-player-menu-lock",
+  "title": "LipatoS - Ограничение меню особенностей, заклинаний и эффектов",
+  "description": "Для игроков скрывает запрещённые пункты контекстного меню в Особенностях и Заклинаниях, а также удаление пассивных эффектов. Пункт «Использовать» этот мод не трогает. ГМ работает без изменений.",
+  "version": "1.3.1",
+  "authors": [
+    {
+      "name": "LipatoS"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14.367",
+    "verified": "14.367"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.3"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "manifest": "https://raw.githubusercontent.com/Lipatosha/LipatoS-player-menu-lock/main/module.json",
+  "download": "https://raw.githubusercontent.com/Lipatosha/LipatoS-player-menu-lock/main/lipatos-player-menu-lock-v1.3.1.zip"
+}
